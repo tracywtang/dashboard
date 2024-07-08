@@ -1,0 +1,54 @@
+{
+    "tooltip": {
+      "trigger": "item",
+      "show": true
+    },
+    "legend": {
+
+      "show": false
+    },
+    "xaxis":{
+        "show":false
+    },
+    "title":{
+        "text":"38%",
+        "left": 30,
+        "top": 40,
+        "textStyle": {"fontSize": 20},
+        "subtext":"Weekly",
+        "subtextStyle":{"fontSize":10}
+    },
+    "series": [
+      {
+        "name": "Access From",
+        "type": "pie",
+        "radius": ["80%", "70%"],
+        "avoidLabelOverlap": false,
+        "padAngle": 5,
+        "itemStyle": {
+          "borderRadius": 10
+        },
+        "label": {
+          "show": false,
+          "position": "center"
+        },
+        "emphasis": {
+          "label": {
+            "show": false,
+            "fontSize": 40,
+            "fontWeight": "bold"
+          }
+        },
+        "labelLine": {
+          "show": false
+        },
+        "data": [
+          { "value": 40, "name": "Fashion" },
+          { "value": 80, "name": "Electronic" },
+          { "value": 20, "name": "Sports" },
+          { "value": 40, "name": "Decor" }
+
+        ]
+      }
+    ]
+  }

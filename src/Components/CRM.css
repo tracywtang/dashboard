@@ -1,0 +1,1174 @@
+.cbox{
+    width: 1300px;
+    height: 1909px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.ccontents{
+    width: 1300px;
+    height: 1890px;
+    padding: 9px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+/* part1 structure */
+.cpart1{
+    width: 1293px;
+    height: 415px;
+    display: flex;
+    justify-content: space-around;
+}
+.ccustomRating{
+    width: 407px;
+    height: 412px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;  
+}
+.coverview{
+    width: 407px;
+    height: 412px;
+    display: flex;
+    flex-direction: column;
+    background-color: white; 
+}
+.cpart1Right{
+    width: 407px;
+    height: 412px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cpart1RightT{
+    width: 407px;
+    height: 195px;
+    display: flex;
+    justify-content: space-between;
+}
+.cpart1RightB{
+    width: 407px;
+    height: 195px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.csession,.corders{
+    width: 191px;
+    height: 190px;
+    padding-top: 24px;
+    padding-left: 24px;
+    background-color: white;
+}
+
+/* part1 left details */
+.ccustomRatingT{
+    width: 407px;
+    height: 60px;
+    font-size: 1rem;
+    text-align: left;
+    padding: 24px;
+    color: rgba(50, 71, 92, 0.87);
+}
+.ccustomRatingM{
+    width: 407px;
+    height: 91px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.ccustomRatingM1{
+    width: 359px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.ccustomRatingM1No{
+    width: 71px;
+    height: 55px;
+    margin-right: 18px;
+    font-size: 3rem;
+    color: rgba(50, 71, 92, 0.87);
+}
+.ccustomRatingM1Star{
+    width: 118px;
+    height: 24px;
+    display: flex;
+}
+.ccustomRatingM1Star span{
+    width: 22px;
+    height: 22px;
+    background-image: url(../Icons/star-solid.svg);
+    background-size: 100% 100%;
+}
+.ccustomRatingM1Star s{
+    width: 22px;
+    height: 22px;
+    background-image: url(../Icons/star-regular.svg);
+    background-size: 100% 100%;
+}
+
+
+.ccustomRatingM2{
+    width: 359px;
+    height: 24px;
+    display: flex;
+}
+.ccustomRatingM2No{
+    width: 46px;
+    height: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.8125rem;
+    margin-right: 20px;
+    color:rgb(255, 171, 0);
+    background-color: rgba(255,171,0,0.16);
+}
+.ccustomRatingM2Text{
+    width: 168px;
+    height: 24px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.6);
+}
+.ccustomRatingB{
+    width: 407px;
+    height: 256px;
+}
+
+/* part 1 mid details */
+.coverviewTop{
+    width: 358px;
+    height: 62px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.coverviewTop1{
+  width: 358px;
+  height: 32px;  
+  font-size: 1.25rem; 
+  text-align: left;
+  margin-left: 20px;
+}
+.coverviewTop2{
+    width: 358px;
+    height: 21px;
+    font-size: 0.875rem;
+    color: rgba(50,71,92,0.6);
+    text-align: left;
+    margin-top: 0.3125rem;
+    margin-left: 20px;
+}
+.coverviewBot{
+    width: 407px;
+    height: 322px;
+}
+
+/* part 1 right details */
+/* sessions */
+.csessionNumber{
+    width: 155px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.csessionNumber1{
+    width: 155px;
+    height: 24px;
+    text-align: left;
+}
+.csessionNumber2{
+    width: 155px;
+    height: 31px;
+    text-align: left;
+    font-weight: 700;
+}
+.csessionImg{
+    width: 195px;
+    height: 110px;
+    margin-left: -24px;
+}
+/* order */
+.cordersImg{
+    width: 42px;
+    height: 42px;
+    background-image: url(https://greakproject.vercel.app/images/cards/stats-vertical-cube.png);
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+}
+.cordersText1{
+    width: 155px;
+    height: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.cordersText2{
+    width: 155px;
+    height: 25px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.cordersText3{
+    width: 155px;
+    height: 20px;
+    color: red;
+    text-align: left;
+}
+.cordersText3::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    padding-right: 20px;
+    background-image: url(../Icons/arrow-down-solid.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/* generated leads */
+.cpart1RightBL{
+    width: 159px;
+    height: 163px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cpart1RightBLT{
+    width: 159px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+}
+.cpart1RightBLT1{
+    width: 159px;
+    height: 32px;
+    font-size: 1.25rem;
+    color: rgba(50, 71, 92, 0.87);
+    text-align: left;
+}
+.cpart1RightBLT2{
+    width: 159px;
+    height: 20px;
+    font-size: 0.875rem;
+    color: rgba(50, 71, 92, 0.6);
+    text-align: left;
+}
+.cpart1RightBLB{
+    width: 159px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+
+}
+.cpart1RightBLB1{
+    width: 159px;
+    height: 31px;
+    margin-bottom: 8px;
+    font-size: 1.4993rem;
+    color: rgba(50, 71, 92, 0.87);
+    text-align: left;   
+}
+.cpart1RightBLB2{
+    width: 119px;
+    height: 20px;
+    font-size: 0.875rem;
+    text-align: left;
+    /* must have. otherwise the before won't show up! */
+    display: flex;
+    color: rgb(113, 221, 55);
+}
+.cpart1RightBLB2::before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    background-image: url(../Icons/arrow-up-solid.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.cpart1RightBR{
+    width: 150px;
+    height: 163px;
+}
+
+/* part 2 structure */
+.cpart2{
+    width: 1293px;
+    height: 432px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.cpart2L{
+    width: 840px;
+    height: 432px;
+    display:flex;
+    background-color: white;
+}
+.prodSales{
+    width: 420px;
+    height: 430px;
+    border-right: solid 1px grey;
+}
+.prodVolume{
+    width: 420px;
+    height: 430px;
+}
+.cpart2R{
+    width: 407px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+/* prodSales */
+.prodSalesT{
+    width: 418px;
+    height: 70px;
+    padding: 22px 19px;
+    display: flex;
+}
+.prodSalesTL{
+    width: 150px;
+    height: 24px;
+    font-size: 1.25rem;
+    color: rgba(50, 71, 92, 0.87);
+}
+.prodSalesTR{
+    width: 51px;
+    height: 24px;
+    font-size: 1.25rem;
+    color: rgb(255, 171, 0);
+}
+.prodSalesB{
+    width: 418px;
+    height: 350px;
+    padding: 18px 24px 24px 24px;
+}
+.prodSalesBBox1,.prodSalesBBox2,.prodSalesBBox3,
+.prodSalesBBox4,.prodSalesBBox5{
+    width: 370px;
+    height: 44px;
+    margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+}
+.prodSalesBBoxL{
+    width: 38px;
+    height:38px; 
+    margin-right: 12px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.prodSalesBBox1 .prodSalesBBoxL{
+    background-image: url(https://greakproject.vercel.app/images/cards/avatar-oneplus-nord-error.png);
+}
+.prodSalesBBox2 .prodSalesBBoxL{
+    background-image: url(https://greakproject.vercel.app/images/cards/avatar-xiaomi-band.png);
+}
+.prodSalesBBox3 .prodSalesBBoxL{
+    background-image: url(https://greakproject.vercel.app/images/cards/avatar-microsoft-surface.png);
+}
+.prodSalesBBox4 .prodSalesBBoxL{
+    background-image: url(https://greakproject.vercel.app/images/cards/avatar-apple-iPhone.png);
+}
+.prodSalesBBox5 .prodSalesBBoxL{
+    background-image: url(https://greakproject.vercel.app/images/cards/avatar-beats-headphone.png);
+}
+.prodSalesBBoxR{
+    width: 320px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+.prodSalesBBoxR1{
+    width: 101px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.prodSalesBBoxR1T{
+    width: 111px;
+    height: 24px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.6);
+    text-align: left;
+}
+.prodSalesBBoxR1B{
+    width: 101px;
+    height:20px;
+    font-size: 0.875rem;
+    color: rgba(50, 71, 92, 0.38);
+    text-align: left;
+}
+.prodSalesBBoxR2{
+    width: 66px;
+    height: 24px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.6);
+    text-align: right;
+}
+
+/* product by volume. quite some are using the product sale class*/
+
+.prodVolumeBBox1,.prodVolumeBBox2,.prodVolumeBBox3,
+.prodVolumeBBox4,.prodVolumeBBox5{
+    width: 370px;
+    height: 44px;
+    margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+}
+.prodVolumeBBoxR2{
+    width: 128px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+.prodVolumeBBoxR2L{
+    width: 50px;
+    height: 24px;
+    margin-right: 14px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.6);
+}
+.prodVolumeBBoxR2R{
+    width: 64px;
+    height: 24px;
+    background-color: rgba(113, 221, 55, 0.16);
+    color: rgb(113, 221, 55);
+}
+.prodVolumeBBoxR2RRed{
+    width: 64px;
+    height: 24px;
+    background-color: rgba(255, 62, 29, 0.16);
+    color: rgb(255, 62, 29)
+}
+.prodVolumeBBox1 .prodSalesBBoxL{
+    background-image: url(https://greakproject.vercel.app/images/cards/avatar-hp-envy.png);
+}
+.prodVolumeBBox2 .prodSalesBBoxL{
+    background-image: url(https://greakproject.vercel.app/images/cards/avatar-apple-iMac.png);
+}
+.prodVolumeBBox3 .prodSalesBBoxL{
+    background-image: url(https://greakproject.vercel.app/images/cards/avatar-fitbit-watch.png);
+}
+.prodVolumeBBox4 .prodSalesBBoxL{
+    background-image: url(https://greakproject.vercel.app/images/cards/avatar-oneplus-nord-success.png);
+}
+.prodVolumeBBox5 .prodSalesBBoxL{
+    background-image: url(	https://greakproject.vercel.app/images/cards/avatar-google-pixel.png);
+}
+
+/* part 2 right side */
+.cpart2RT{
+    width: 407px;
+    height: 96px;
+    padding: 18px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.cpart2RT1{
+    width: 335px;height: 32px;
+    font-size: 1.25rem;
+    color: rgba(50, 71, 92, 0.87);
+}
+.cpart2RT2{
+    width: 335px;height: 21px;
+    margin-top: 5px;
+    font-size: 0.875rem;
+    color: rgba(50, 71, 92, 0.6);
+}
+.cpart2RM{
+    width: 407px;
+    height: 3px;
+    padding: 0 24px 15px 24px;
+}
+.cpart2RM1,.cpart2RM2,.cpart2RM3{
+    width: 370px;
+    height: 44px;
+    margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+}
+.cpart2RML{
+    width: 38px;
+    height:38px; 
+    margin-right: 12px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.cpart2RMR{
+    width: 320px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+.cpart2RMR1{
+    width: 101px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cpart2RMR1T{
+    width: 111px;
+    height: 24px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+    text-align: left;
+}
+.cpart2RMR1B{
+    width: 111px;
+    height:20px;
+    font-size: 0.875rem;
+    color: rgba(50, 71, 92, 0.38);
+    text-align: left;
+}
+.cpart2RMR2{
+    width: 128px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+.cpart2RMR2L{
+    width: 50px;
+    height: 24px;
+    margin-right: 14px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.6);
+}
+.cpart2RMR2R{
+    width: 64px;
+    height: 24px;
+    font-size: 0.875rem;
+    color: rgba(50, 71, 92, 0.38);
+}
+.cpart2RMR2R::before{
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-image: url(../Icons/up\ arrow.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.cpart2RM4{
+    width: 359px;
+    height: 157px;
+    margin-top: -22px;
+}
+.cpart2RM1 .cpart2RML{
+    background-image: url(../Icons/net\ profit.png);
+}
+.cpart2RM2 .cpart2RML{
+    background-image: url(../Icons/total\ income.png);
+}
+.cpart2RM3 .cpart2RML{
+    background-image: url(../Icons/total\ expense.png);
+}
+
+/* part3 */
+.cpart3{
+    width: 1293px;
+    height: 508px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.cpart3L, .cpart3M, .cpart3R{
+    width: 407px;
+    height: 508px;
+    padding-top: 24px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+/* part 3 left */
+.cpart3LT{
+    width: 412px;
+    height: 109px;
+    display: flex;
+}
+.cpart3LTL{
+    width: 279px;
+    height: 61px;
+    display: flex;
+    flex-direction: column;
+}
+.cpart3LTLT{
+    width: 279px;
+    height: 32px;
+    text-align: left;
+    font-size: 1.25rem;
+    color: rgba(50, 71, 92, 0.87);
+}
+.cpart3LTLB{
+    width: 279px;
+    height: 24px;
+    margin-top: 5px;
+    display: flex;
+}
+.cpart3LTLB1{
+    width: 65px;
+    height: 24px;
+    margin-right: 6px;
+    background-color: rgba(113, 221, 55, 0.16);
+    color: rgb(113, 221, 55);
+    font-size: 0.8125rem;
+    border-radius: 4px;
+}
+.cpart3LTLB2{
+    width: 104px;
+    height: 24px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.6);
+}
+.cpart3LTR{
+    width: 85px;
+    height: 32px;
+    border: solid 1px rgba(255,171,0,0.5);
+    color: rgb(255, 171, 0);
+    border-radius: 4px;
+}
+.cpart3LB{
+    width: 408px;
+    height: 370px;
+    margin-left: -24px;
+}
+
+/* part3 mid part */
+.cpart3MT{
+    width: 412px;
+    height: 106px;   
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.cpart3MT1{
+    width: 332px;
+    height: 32px;
+    font-size: 1.25rem;
+    color: rgba(50, 71, 92, 0.87);
+}
+.cpart3MT2{
+    width: 332px;
+    height: 21px;
+    margin-top: 5px;
+    font-size: 0.875rem;
+    color: rgba(50, 71, 92, 0.6);
+}
+.cpart3MB{
+    width: 412px;
+    height: 378px;
+}
+.cpart3MB1,.cpart3MB2,.cpart3MB3,
+.cpart3MB4,.cpart3MB5,.cpart3MB6{
+    width: 364px;
+    height: 44px;
+    margin-bottom: 18px;
+    display: flex;
+}
+.cpart3MBL{
+    width: 38px;
+    height: 38px;
+    margin-right: 16px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.cpart3MB1 .cpart3MBL{
+    background-image: url(https://greakproject.vercel.app/images/cards/usa.png);
+}
+.cpart3MB2 .cpart3MBL{
+    background-image: url(https://greakproject.vercel.app/images/cards/brazil.png);
+}
+.cpart3MB3 .cpart3MBL{
+    background-image: url(https://greakproject.vercel.app/images/cards/india.png);
+}
+.cpart3MB4 .cpart3MBL{
+    background-image: url(https://greakproject.vercel.app/images/cards/australia.png);
+}
+.cpart3MB5 .cpart3MBL{
+    background-image: url(https://greakproject.vercel.app/images/cards/belgium.png);
+}
+.cpart3MB6 .cpart3MBL{
+    background-image: url(https://greakproject.vercel.app/images/cards/china.png);
+}
+.cpart3MBR{
+    width: 310px;
+    height: 44px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cpart3MBRL{
+    width: 158px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+}
+.cpart3MBRLT{
+    width: 158px;
+    height: 24px;
+    display: flex;
+}
+.cpart3MBRLT1{
+    width: 64px;
+    height: 24px;
+    margin-right: 4px;
+    text-align: left;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+}
+.cpart3MB1 .cpart3MBRLT2,
+.cpart3MB3 .cpart3MBRLT2,
+.cpart3MB5 .cpart3MBRLT2,
+.cpart3MB6 .cpart3MBRLT2{
+    width: 42px;
+    height: 22px;
+    font-size: 0.875rem;
+    color: rgb(113, 221, 55);
+}
+.cpart3MBRLTGreen{
+    content: '';
+    width: 22px;
+    height: 22px;
+    background-image: url(../Icons/up\ arrow.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.cpart3MB2 .cpart3MBRLT2,
+.cpart3MB4 .cpart3MBRLT2{
+    width: 42px;
+    height: 22px;
+    font-size: 0.875rem;
+    color: red;
+}
+.cpart3MBRLTRed{
+    content: '';
+    width: 22px;
+    height: 22px;
+    background-image: url(../Icons/red\ arrow.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.cpart3MBRLB{
+    width: 158px;
+    height: 24px;
+    text-align: left;
+    font-size: 0.875rem;
+    color: rgba(50, 71, 92, 0.38);
+}
+.cpart3MBRR{
+    width: 39px;
+    height: 24px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+}
+
+/* part 3 right part */
+.cpart3RT{
+    width: 412px;
+    height: 80px;
+    text-align: left;
+    font-size: 1.25rem;
+    color: rgba(50, 71, 92, 0.87);
+}
+.cpart3RM{
+    width: 364px;
+    height: 349px;
+}
+.cpart3RB{
+    width: 364px;
+    height: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.cpart3RBLBefore{
+    width: 11px;
+    height: 11px;
+    background-color: rgb(113, 221, 55);
+    border-radius: 50%;
+}
+.cpart3RBL{
+    width: 144px;
+    height: 24px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+}
+.cpart3RBRBefore{
+    width: 11px;
+    height: 11px;
+    background-color: rgb(235, 238, 240);
+    border-radius: 50%;
+}
+.cpart3RBR{
+    width: 160px;
+    height: 24px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+}
+
+/* part 4 left*/
+.cpart4{
+    width: 1293px;
+    height: 401px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.cpart4L{
+    width: 521px;
+    height: 401px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.cpart4LHeader{
+    width: 473px;
+    height: 32px;
+    padding-left: 16px;
+    text-align: left;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+}
+.cpart4LBox{
+    width: 521px;
+    height: 371px;
+    display: flex;
+    flex-direction: column;
+}
+.cpart4LBoxH{
+    width: 526px;
+    height: 56px;
+    font-size: 0.75rem;
+    color: rgba(50, 71, 92, 0.87);
+    text-align: left;
+    display: flex;
+}
+.cpart4LBoxH1{
+    width: 210px;
+    height: 56px;
+    padding: 16px 16px 24px 16px;
+}
+.cpart4LBoxH2{
+    width: 110px;
+    height: 56px;
+    padding: 16px;
+}
+.cpart4LBoxH3{
+    width: 91px;
+    height: 56px;
+    padding: 16px;
+}
+.cpart4LBoxH4{
+    width: 113px;
+    height: 56px;
+    padding: 16px 24px 16px 16px;
+}
+
+.cpart4LBoxBody{
+    width: 526px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.cpart4LBoxBody1,.cpart4LBoxBody2,.cpart4LBoxBody3,
+.cpart4LBoxBody4,.cpart4LBoxBody5{
+    width: 526px;
+    height: 60px;
+    display: flex;
+}
+.cpart4LBoxBodyName{
+    width: 210px;
+    height: 60px;
+    padding: 8px 16px 8px 24px;
+    display: flex;
+}
+.cpart4LBoxBodyNameL{
+    width: 38px;
+    height: 38px;
+    margin-right: 12px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.cpart4LBoxBody1 .cpart4LBoxBodyNameL{
+    background-image: url(https://greakproject.vercel.app/images/avatars/17.png);
+}
+.cpart4LBoxBody2 .cpart4LBoxBodyNameL{
+    background-image: url(https://greakproject.vercel.app/images/avatars/8.png);
+}
+.cpart4LBoxBody3 .cpart4LBoxBodyNameL{
+    background-color: rgba(255,171,0,0.16);
+    color:rgb(255, 171, 0);
+    line-height: 38px;
+}
+.cpart4LBoxBody4 .cpart4LBoxBodyNameL{
+    background-image: url(https://greakproject.vercel.app/images/avatars/2.png);
+}
+.cpart4LBoxBody5 .cpart4LBoxBodyNameL{
+    background-image: url(https://greakproject.vercel.app/images/avatars/11.png);
+}
+.cpart4LBoxBodyNameR{
+    width: 119px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.cpart4LBoxBodyNameFull{
+    width: 119px;
+    height: 24px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+}
+.cpart4LBoxBodyNameTitle{
+    width: 119px;
+    height: 20px;
+    font-size: 0.875rem;
+    color: rgba(50, 71, 92, 0.38);
+}
+
+.cpart4LBoxBodyProj{
+    width: 110px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cpart4LBoxBody1 .cpart4LBoxBodyProj span,
+.cpart4LBoxBody3 .cpart4LBoxBodyProj span{
+    background-color: rgba(255,171,0,0.16);
+    color: rgb(255, 171, 0);
+    font-size: 0.8125rem;
+    border-radius: 4px;
+    padding: 8px;
+}
+.cpart4LBoxBody2 .cpart4LBoxBodyProj span{
+    background-color: rgba(255,62,29,0.16);
+    color: rgb(255,62,29);
+    font-size: 0.8125rem;
+    border-radius: 4px;
+    padding: 8px;
+}
+.cpart4LBoxBody4 .cpart4LBoxBodyProj span{
+    background-color: rgba(3,195,236,0.16);
+    color: rgb(3,195,236);
+    font-size: 0.8125rem;
+    border-radius: 4px;
+    padding: 8px;
+}
+.cpart4LBoxBody5 .cpart4LBoxBodyProj span{
+    background-color: rgba(133,146,163,0.16);
+    color: rgb(133,146,163);
+    font-size: 0.8125rem;
+    border-radius: 4px;
+    padding: 8px;
+}
+.cpart4LBoxBodyTask{
+    width: 91px;
+    height: 60px;
+    padding: 16px 8px;
+    font-size: 0.875rem;
+    color: rgba(50, 71, 92, 0.6);
+    text-align: left;
+}
+.cpart4LBoxBodyProg{
+    width: 113px;
+    height: 60px;
+    /* padding: 8px 24px 8px 16px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px red;
+}
+
+
+/* part 4 right part */
+.cpart4R{
+    width: 739px;
+    height: 401px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.cpart4RHeader{
+    width: 739px;
+    height: 37px;
+    display: flex;
+    font-size: 1rem;
+    text-align: left;
+    color: rgba(50, 71, 92, 0.87);
+}
+.cpart4RHeaderCus{
+    width: 262px;
+    height: 37px;
+    padding: 12px 16px 12px 24px;
+}
+.cpart4RHeaderAmt{
+    width: 120px;
+    height: 37px;
+    padding:16px 12px;
+}
+.cpart4RHeaderSta{
+    width: 134px;
+    height: 3px;
+    padding: 16px 12px;
+}
+.cpart4RHeaderPai{
+    width: 101px;
+    height: 37px;
+    padding:16px 12px;
+}
+.cpart4RHeaderAct{
+    width: 120px;
+    height: 37px;
+    padding: 12px 24px 12px 16px;
+}
+.cpart4RBody{
+    width: 739px;
+    height: 399px;
+    display:flex;
+    flex-direction: column;
+}
+.cpart4RBody1,.cpart4RBody2,.cpart4RBody3,
+.cpart4RBody4,.cpart4RBody5,.cpart4RBody6{
+    width: 739px;
+    height: 61px;
+    border-top: solid 1px lightgrey;
+    display: flex;
+    align-items: center;
+}
+.cpart4RBodyCus{
+    width: 262px;
+    height: 44px;
+    padding: 8px 16px 8px 24px;
+    display: flex;
+}
+.cpart4RBodyCusL{
+    width: 38px;
+    height: 38px;
+    margin-right: 15px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.cpart4RBody1 .cpart4RBodyCusL{
+    background-image: url(https://greakproject.vercel.app/images/avatars/7.png);
+}
+.cpart4RBody2 .cpart4RBodyCusL{
+    background-image: url(https://greakproject.vercel.app/images/avatars/20.png);
+}
+.cpart4RBody3 .cpart4RBodyCusL{
+    background-image: url(https://greakproject.vercel.app/images/avatars/9.png);
+}
+.cpart4RBody4 .cpart4RBodyCusL{
+    background-image: url(https://greakproject.vercel.app/images/avatars/14.png);
+}
+.cpart4RBody5 .cpart4RBodyCusL{
+    background-image: url(../Icons/person.png);
+}
+.cpart4RBody6 .cpart4RBodyCusL{
+    background-image: url(https://greakproject.vercel.app/images/avatars/8.png);
+}
+.cpart4RBodyCusR{
+    width: 105px;height: 44px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.cpart4RBodyCusRT{
+    width: 125px;
+    height: 24px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87)
+}
+.cpart4RBodyCusRB{
+    width: 105px;
+    height: 20px;
+    font-size: 0.875rem;
+    color:rgba(50, 71, 92, 0.38);
+}
+
+.cpart4RBodyAmt{
+    width: 120px;
+    height: 61px;
+    padding: 16px 8px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.6);
+    text-align: left;
+}
+.cpart4RBodySta{
+    width: 134px;
+    height: 61px;
+    padding: 16px 8px;
+    display: flex;
+    align-items: center;
+}
+.cpart4RBody1 .cpart4RBodySta span,
+.cpart4RBody4 .cpart4RBodySta span,
+.cpart4RBody5 .cpart4RBodySta span{
+    background-color: rgba(113,221,55,0.16);
+    color: rgb(113, 221, 55);
+    font-size: 0.8125rem;
+    border-radius: 4px;
+    padding: 8px;
+}
+.cpart4RBody2 .cpart4RBodySta span,
+.cpart4RBody3 .cpart4RBodySta span{
+    background-color: rgba(255,171,0,0.16);
+    color: rgb(255, 171, 0);
+    font-size: 0.8125rem;
+    border-radius: 4px;
+    padding: 8px;
+}
+.cpart4RBody6 .cpart4RBodySta span{
+    background-color: rgba(255,62,29,0.16);
+    color: rgb(255,62,29);
+    font-size: 0.8125rem;
+    border-radius: 4px;
+    padding: 8px;
+}
+.cpart4RBodyPai{
+    width: 101px;
+    height: 61px;
+    padding: 16px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.cpart4RBodyPai img{
+    width: 50px;
+    height: 29px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.cpart4RBodyAct{
+    width: 120px;
+    height: 61px;
+    padding: 8px 24px 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cpart4RBodyAct button{
+    width: 22px;
+    height: 22px;
+    border: none;
+    background-image: url(../Icons/3dots.png);
+}

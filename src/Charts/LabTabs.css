@@ -1,0 +1,220 @@
+/* item one */
+
+.rankWrapper, .rankWrapper2,.rankWrapper3{
+    width: 610px;
+    height: 398px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rankHeader{
+    width: 622px;
+    height: 68px;
+    display: flex;
+}
+.rankHeader1{
+    width: 65px;
+    height: 68px;
+    padding: 26px 16px 22px 0;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+    text-align: left;
+}
+.rankHeader2{
+    width: 164px;
+    height: 68px;
+    padding: 26px 16px 22px 16px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+    text-align: left;
+}
+.rankHeader3{
+    width: 114px;
+    height: 68px;
+    padding: 26px 16px 22px 16px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+    text-align: left;
+}
+.rankHeader4{
+    width: 265px;
+    height: 68px;
+    padding: 26px 24px 22px 16px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+    text-align: left;
+}
+
+.rankBody{
+    width: 622px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.rankBody1,.rankBody2,.rankBody3,
+.rankBody4,.rankBody5,.rankBody6{
+    width: 622px;
+    height: 50px;
+    display: flex;
+}
+.rankBodyNo{
+    width: 66px;
+    height: 50px;
+    padding: 13px 16px 13px 0;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+    text-align: left;
+}
+.rankBodyName{
+    width: 164px;
+    height: 50px;
+    padding: 16px 13px;
+    display: flex;
+    align-items: center;
+}
+.rankBody1 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/chrome.png);
+    background-size: 100% 100%;
+}
+.rankBody2 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/safari.png);
+    background-size: 100% 100%;
+}
+.rankBody3 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/firefox.png);
+    background-size: 100% 100%;
+}
+.rankBody4 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/edge.png);
+    background-size: 100% 100%;
+}
+.rankBody5 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/opera.png);
+    background-size: 100% 100%;
+}
+.rankBody6 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/brave.png);
+    background-size: 100% 100%;
+}
+.rankBodyNameText{
+    width: 59px;
+    height: 24px;
+    margin-left: 12px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.6);
+}
+.rankBodyVisit{
+    width: 114px;
+    height: 50px;
+    padding: 16px 13px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.6);
+    text-align: left;
+}
+.rankBodyData{
+    width: 265px;
+    height: 50px;
+    padding: 13px 24px 13px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rankBodyData1{
+    width: 159px;
+    height: 9px;
+    margin-right: 16px;
+}
+.rankBodyData2{
+    width: 50px;
+    height: 20px;
+    font-size: 0.875rem;
+    color: rgba(50, 71, 92, 0.6);
+}
+
+/* tabpanel2 img */
+.rankWrapper2 .rankBody1 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/windows.png);
+    background-size: 100% 100%;
+}
+.rankWrapper2 .rankBody2 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/mac.png);
+    background-size: 100% 100%;
+}
+.rankWrapper2 .rankBody3 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/ubuntu.png);
+    background-size: 100% 100%;
+}
+.rankWrapper2 .rankBody4 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/linux.png);
+    background-size: 100% 100%;
+}
+.rankWrapper2 .rankBody5 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/chrome.png);
+    background-size: 100% 100%;
+}
+.rankWrapper2 .rankBody6 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/cent.png);
+    background-size: 100% 100%;
+}
+
+/* tabpanel 3 img */
+.rankWrapper3 .rankBody1 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/usa.png);
+    background-size: 100% 100%;
+}
+.rankWrapper3 .rankBody2 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/brazil.png);
+    background-size: 100% 100%;
+}
+.rankWrapper3 .rankBody3 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/india.png);
+    background-size: 100% 100%;
+}
+.rankWrapper3 .rankBody4 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/australia.png);
+    background-size: 100% 100%;
+}
+.rankWrapper3 .rankBody5 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/china.png);
+    background-size: 100% 100%;
+}
+.rankWrapper3 .rankBody6 .rankBodyNameImg{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/france.png);
+    background-size: 100% 100%;
+}

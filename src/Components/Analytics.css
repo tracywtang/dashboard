@@ -1,0 +1,825 @@
+/* right side */
+.box{
+    width: 1300px;
+    height: 1759px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.contents{
+    width: 1300px;
+    height: 1700px;
+    padding: 9px;
+    background-color: lightgrey;
+}
+
+
+.part1{
+    width: 1300px;
+    height: 180px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.congrats{
+    width: 854px;
+    height: 180px;
+    margin-right: 20px;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+.congratsText{
+    width: 391px;
+    height: 180px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.congratsText1{
+    font-size: 20px;
+    color: orange;
+    text-align: left;
+}
+.congratsText2{
+    font-size: 18px;
+    color: gray;
+    text-align: left;
+}
+.congratsText3{
+    width: 133px;
+    height: 24px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: orange;
+    border-color: orange;
+    background-color: white;
+}
+.congratsImg{
+    width: 391px;
+    height: 180px;
+    padding-left: 24px;
+    background-image: url(https://greakproject.vercel.app/images/cards/illustration-john-light.png);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.order, .sales, .payment, .revenue{
+    width: 200px;
+    height: 180px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.orderNumber{
+    width: 155px;
+    height: 55px;
+    padding: 14px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+.orderNumber1{
+    width: 155px;
+    height: 24px;
+    text-align: left;
+}
+.orderNumber2{
+    width: 155px;
+    height: 31px;
+    text-align: left;
+    font-weight: 700;
+}
+.orderImg{
+    width: 195px;
+    height: 110px;
+}
+.sales{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.salesImg{
+    width: 42px;
+    height: 42px;
+    background-image: url(https://greakproject.vercel.app/images/cards/stats-vertical-wallet.png);
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+}
+.salesText1{
+    width: 155px;
+    height: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.salesText2{
+    width: 155px;
+    height: 25px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.salesText3{
+    width: 155px;
+    height: 20px;
+    color: green;
+    text-align: left;
+}
+.salesText3::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    padding-right: 20px;
+    background-image: url(../Icons/arrow-up-solid.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.part2{
+    width: 1300px;
+    height: 365px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.part2Left{
+    width: 844px;
+    height: 365px;
+    margin-right: 20px;
+    display: flex;
+    background-color: white;
+}
+.totalRev{
+    width: 497px;
+    height: 364px;
+    border-right: 1px solid grey;
+}
+.totalRevText{
+    width: 449px;
+    height: 32px;
+    padding:20px 24px 0 24px;
+    text-align: left;
+}
+.totalRevChart{
+    width: 497px;
+    height: 312px;
+}
+.compGrowth{
+    width: 355px;
+    height: 364px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.compGrowthTop{
+    width: 353px;
+    height: 258px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.compGrowthTopButton{
+    width: 57px;
+    height: 24px;
+    padding: 13ps, 3px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: orange;
+    align-items: center;
+}
+.compGrowthTopChart{
+    width: 307px;
+    height: 202px;
+}
+.compGrowthTopDes{
+    width: 307px;
+    height: 24px;
+    color: grey;
+}
+.compGrowthBottom{
+    width: 353px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+}
+.compGrowthBottomL{
+    width: 121px;
+    height: 44px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.compGrowthBottomL1{
+    width: 38px;
+    height: 38px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.compGrowthBottomL1Img{
+    width: 20px;
+    height: 20px;
+    background-image: url(../Icons/dollar-sign-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.compGrowthBottomL2{
+    width: 63px;
+    height: 44px;
+
+}
+.compGrowthBottomR{
+    width: 118px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.compGrowthBottomR1{
+    width: 38px;
+    height: 38px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.compGrowthBottomR1Img{
+    width: 20px;
+    height: 20px;
+    background-image: url(../Icons/folder-regular.svg);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.compGrowthBottomR2{
+    width: 60px;
+    height: 44px;
+
+}
+.part2Right{
+    width: 440px;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+
+}
+.part2RightTop{
+    width: 440px;
+    height: 180px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.payment{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.paymentImg{
+    width: 42px;
+    height: 42px;
+    background-image: url(../Icons/payment.png);
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+}
+.paymentText1{
+    width: 155px;
+    height: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.paymentText2{
+    width: 155px;
+    height: 25px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.paymentText3{
+    width: 155px;
+    height: 20px;
+    color: green;
+    text-align: left;
+}
+.paymentText3::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    padding-right: 20px;
+    background-image: url(../Icons/arrow-down-solid.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.revenueNumber{
+    width: 155px;
+    height: 55px;
+    padding: 14px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+.revenueNumber1{
+    width: 155px;
+    height: 24px;
+    text-align: left;
+}
+.revenueNumber2{
+    width: 155px;
+    height: 31px;
+    text-align: left;
+    font-weight: 700;
+}
+.revenueImg{
+    width: 195px;
+    height: 110px;
+}
+.profit{
+    width: 415px;
+    height: 170px;
+    background-color: white;
+    display: flex;
+}
+.profitL{
+    width: 200px;
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.profit1{
+    width: 120px;
+    height: 32px;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.profit2{
+    width: 89px;
+    height: 28px;
+    background-color: rgba(255,171,0,0.16);
+    color: orange;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.profit3{
+    width: 12px;
+    height: 22px;
+    color: rgb(113,221,55);
+    margin-top: 20px;
+}
+.profit3::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    padding-right: 20px;
+    background-image: url(../Icons/arrow-up-solid.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.profit4{
+    width: 120px;
+    height: 27px;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.profitR{
+    width: 200px;
+    height: 169px;  
+}
+
+
+.part3{
+    width: 1300px;
+    height: 500px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.orderStatistics,.income,.transaction{
+    width: 415px;
+    height: 500px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+}
+.orderStatisticsTop{
+    width: 335px;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+}
+.orderStatisticsTop1{
+  width: 335px;
+  height: 32px;  
+  font-size: 1.25rem; 
+  text-align: left;
+  margin-left: 20px;
+}
+.orderStatisticsTop2{
+    width: 335px;
+    height: 21px;
+    font-size: 0.875rem;
+    color: rgba(50,71,92,0.6);
+    text-align: left;
+    margin-top: 0.3125rem;
+    margin-left: 20px;
+}
+
+.orderStatisticsBot{
+    width: 367px;
+    height: 383px;
+    padding: 0 24px 24px 24px;
+}
+.orderStatisticsBot1{
+    width: 367px;
+    height: 111px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.orderStatisticsBot1L{
+    width: 91px;
+    height: 83px;
+    margin-top: 28px;
+}
+.orderStatisticsBot1LT{
+    width: 91px;
+    height: 40px;
+    margin-bottom: 2px;
+    font-size: 2.0243rem;
+}
+.orderStatisticsBot1LB{
+    width: 91px;
+    height: 24px;
+    font-size: 1rem;
+    color: rgba(50,71,92,0.6);
+}
+
+.orderStatisticsBot1R{
+    width: 110px;
+    height: 111px;
+}
+.orderStatisticsBot2, .orderStatisticsBot3,
+.orderStatisticsBot4, .orderStatisticsBot5{
+    width: 367px;
+    height: 44px;
+    margin-bottom: 22px;
+    border-radius: 5px;
+    display: flex;
+}
+.orderStatisticsBot2L{
+    width: 38px;
+    height: 38px;
+    margin-right: 12px;   
+}
+.orderStatisticsBot2 .orderStatisticsBot2L{
+    background-image: url(../Icons/Electronic.png);
+    background-size: 100% 100%;
+}
+.orderStatisticsBot3 .orderStatisticsBot2L{
+    background-image: url(../Icons/Fashion.png);
+    background-size: 100% 100%;
+}
+.orderStatisticsBot4 .orderStatisticsBot2L{
+    background-image: url(../Icons/Decor.png);
+    background-size: 100% 100%;
+}
+.orderStatisticsBot5 .orderStatisticsBot2L{
+    background-image: url(../Icons/Sports.png);
+    background-size: 100% 100%;
+}
+.orderStatisticsBot2LR{
+    width: 317px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+.orderStatisticsBot2LRText{
+    width: 129px;
+    height: 44px;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.orderStatisticsBot2LRText1{
+    width: 129px;
+    height: 24px;
+    font-size: 1rem;
+    text-align: left;
+    color: rgba(50,71,92,0.87);
+}
+.orderStatisticsBot2LRText2{
+    width: 129px;
+    height: 20px;
+    font-size: 0.875rem;
+    text-align: left;
+    color: rgba(50,71,92,0.38);
+}
+.orderStatisticsBot2LRAmt{
+    width: 38px;
+    height: 20px;
+    font-size: 0.875rem;
+    color: rgba(50,71,92,0.6);
+}
+.transactionT{
+    width: 356px;
+    height: 32px;
+    padding: 24px;
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color:rgba(50, 71, 92, 0.87);
+}
+.transactionB{
+    width: 356px;
+    height: 396px;
+    padding: 0 24px 24px 24px;
+    color: rgba(50, 71, 92, 0.87);
+    font-size: 1rem;
+}
+.transactionB1,.transactionB2,.transactionB3,
+.transactionB4,.transactionB5,.transactionB6{
+    width: 356px;
+    height: 46px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+.transactionBL{
+    width: 38px;
+    height: 38px;
+    margin-right: 14px;
+}
+.transactionBR{
+    width: 304px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.transactionBRL{
+    width: 92px;
+    height: 46px;
+    margin-right: 8px;
+    text-align: left;
+}
+.transactionBRLT{
+    width: 92px;
+    height: 20px;
+    margin-bottom: 2px;
+    font-size: 0.875rem;
+    color: rgba(50, 71, 92, 0.38);
+}
+.transactionBRLB{
+    width: 102px;
+    height: 24px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+}
+.transactionBRR{
+    width: 88px;
+    height: 24px;
+    display: flex;
+}
+.transactionBRRAmt{
+    width: 43px;height: 24px;
+    margin-right: 12px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+}
+.transactionBRRCurr{
+    width: 32px;
+    height: 24px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.38);
+}
+.transactionB1 .transactionBL{
+    background-image: url(../Icons/payment.png);
+    background-size: 100% 100%;
+}
+.transactionB2 .transactionBL{
+    background-image: url(../Icons/income.png);
+    background-size: 100% 100%;
+}
+.transactionB3 .transactionBL{
+    background-image: url(../Icons/profit.png);
+    background-size: 100% 100%;
+}
+.transactionB4 .transactionBL{
+    background-image: url(../Icons/green\ card.png);
+    background-size: 100% 100%;
+}
+.transactionB5 .transactionBL{
+    background-image: url(../Icons/income.png);
+    background-size: 100% 100%;
+}
+.transactionB6 .transactionBL{
+    background-image: url(../Icons/orange\ card.png);
+    background-size: 100% 100%;
+}
+
+
+.part4{
+    width: 1300px;
+    height: 500px;
+    display: flex;
+}
+.activity,.rank{
+    width: 634px;
+    height: 500px;
+    margin-right: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.activityT{
+    width: 570px;
+    height: 32px;
+    padding: 24px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+    text-align: left;
+    margin-bottom: 20px;
+}
+.activityB{
+    width: 570px;
+    height: 376px;
+    padding: 0 24px 15px 24px;
+    display: flex;
+    flex-direction: column;
+}
+.activityB1, .activityB2, .activityB3{
+    width: 570px;
+    height: 122px;
+    display: flex;
+}
+.activityLine{
+    width: 12px;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+}
+.activityLineT{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(255,171,0);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    box-shadow: rgba(255, 171, 0, 0.16) 0px 0px 0px 4px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+
+}
+.activityLineB{
+    width: 2px;
+    height: 87px;
+    background-color: rgba(50, 71, 92, 0.12);
+    margin-left: 4px;
+}
+.activityContents{
+    width: 526px;
+    height: 86px;
+    padding: 16px 6px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.activityContents1{
+    width: 526px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.activityContents1L{
+    width: 226px;
+    height: 24px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+    text-align: left;
+    margin-left: 10px;
+}
+.activityContents1R{
+    width: 98px;
+    height: 20px;
+    font-size: 0.875rem;
+    color: rgba(50, 71, 92, 0.38);
+    text-align: right;
+}
+.activityContents2{
+    width: 526px;
+    height: 24px;
+    font-size: 1rem;
+    color: rgba(50,71,92,0.6);
+    text-align: left;
+    margin-left: 10px;
+}
+.activityContents3{
+    width: 526px;
+    height: 24px;
+    display: flex;
+    margin-left: 10px;
+}
+.activityB1 .activityContents3Img{
+    width: 24px;
+    height: 24px;
+    background-image: url(https://greakproject.vercel.app/images/icons/file-icons/pdf.png);
+    background-size: 100% 100%;
+}
+.activityContents3File{
+    width: 289px;
+    height: 24px;
+    margin-left: 12px;
+    font-size: 1rem;
+    color: rgba(50, 71, 92, 0.87);
+    text-align: left;
+    margin-left: 10px;
+}
+.activityB2 .activityContents3Img{
+    width: 38px;
+    height: 38px;
+    background-image: url(https://greakproject.vercel.app/images/avatars/3.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.activityLineT3{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(3,195,236);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    box-shadow: rgba(255, 171, 0, 0.16) 0px 0px 0px 4px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+
+}
+.activityContents3Img1,.activityContents3Img2,
+.activityContents3Img3,.activityContents3Img4,.activityContents3Img5{
+    width: 34px;height: 34px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    margin-left: -8px;
+}
+.activityContents3Img1{
+    background-image: url(https://greakproject.vercel.app/images/avatars/5.png);
+}
+.activityContents3Img2{
+    background-image: url(https://greakproject.vercel.app/images/avatars/12.png);
+}
+.activityContents3Img3{
+    background-image: url(https://greakproject.vercel.app/images/avatars/9.png);
+}
+.activityContents3Img4{
+    background-image: url(https://greakproject.vercel.app/images/avatars/6.png);
+}
+.activityContents3Img5{
+    background-image: url(https://greakproject.vercel.app/images/avatars/14.png);
+}
+
+.footer{
+    width: 1300px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+}
+.footerL{
+    width: 311px;
+    height: 24px;
+    line-height: 24px;
+}
+.footerR{
+    width: 399px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: rgb(255, 171, 0);
+}
+.footerR1{
+    width: 57px;
+    height: 24px;
+    margin-right: 10px;
+}
+.footerR2{
+    width: 113px;
+    height: 24px;
+    margin-right: 10px;
+}
+.footerR3{
+    width: 113px;
+    height: 24px;
+    margin-right: 10px;
+}
+.footerR4{
+    width: 60px;
+    height: 24px;
+}
